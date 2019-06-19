@@ -1,0 +1,22 @@
+{
+    "name": "itzcy/tools-php",
+    "description": "PHP 工具包",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "itzcy",
+            "email": "itzcy@itzcy.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "tools\\": "src/"
+        }
+    },
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.6.0"
+    },
+    "require-dev": {}
+}
